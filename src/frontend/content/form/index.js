@@ -1,0 +1,36 @@
+export const LOGIN_FORM = {
+  LOGIN: "Sign in to your account",
+  LOGOUT: "Logout",
+  SIGNUP: "Sign up an account",
+  FORGOTPASSWORD: "Update your password",
+  PHONE: {
+    LABEL: "Phone",
+    PLACE_HOLDER: "(XXX) XXX-XXXX",
+    INFO_MESSAGE: "Please make sure you type the correct phone number",
+    ERROR_MESSAGE: "Format error, only american phone number is accepted",
+  },
+  EMAIL: {
+    LABEL: "Email",
+    PLACE_HOLDER: "you@example.com",
+    INFO_MESSAGE: "",
+    ERROR_MESSAGE: "email format error",
+  },
+  CODE: {
+    LABEL: "Verfication",
+    PLACE_HOLDER: "xxxxxxx",
+    SEND_CODE: "Get code",
+    FREEZE_SEND_CODE: "seconds later will be able to re-send",
+    RESEND_CODE: "re-send",
+    ERROR_MESSAGE: "Your code is incorrect",
+  },
+  PASSWORD: {
+    LABEL: "Password",
+    PLACE_HOLDER: "………………",
+    INFO_MESSAGE: "",
+    ERROR_MESSAGE: "Password format error",
+  },
+  REMEMBER_ME: "allow auto-login",
+  SUBMIT_BUTTON: "Submit",
+  DISCLAIMER: "Please read the <a>disclaimer</a> before log in",
+  DISCLAIMER_TITLE: "登陆协议",
+};
